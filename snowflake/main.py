@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import turtle
 
 pen = turtle.Turtle()
@@ -23,6 +24,6 @@ def flake_point(angle, length):
   flake_side(angle, length)
   pen.right(180 + angle)
 
-for i in xrange(4):
+for i in range(4):
   flake_point(60, 90)
   pen.right(90)
